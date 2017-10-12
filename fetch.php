@@ -1,7 +1,7 @@
 <?php
 
-$__author__   = 'phus.lu@gmail.com';
-$__version__  = '1.6.9';
+$__author__   = '123@gmail.com';
+$__version__  = '1.0';
 $__password__ = '';
 
 function encode_data($dic) {
@@ -385,7 +385,7 @@ function get() {
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>欢迎使用 GoAgent {$__version__} 程序！</title>
+    <title>页面 {$__version__} 部署中,欢迎测试！</title>
 </head>
 <noframes><body></noframes>
 <div style="background-color: #fff;background-color: #fff;color:#555;font:12px/1.5 '微软雅黑','Tahoma','Helvetica','Arial','sans-serif';width: 500px;margin:50px auto;border: 1px solid #ddd;border-top: none;-webkit-box-shadow: #ddd 0px 3px 7px;">
@@ -407,20 +407,9 @@ function get() {
 	</table>
 	<div style="padding: 0 20px;">
 		<div style="font-size:12px;color:#777;overflow-y: auto; max-height: 300px; padding: 20px 10px 10px;">
-			<!--<span style="color: #12ADDB">&sect;</span>!-->&nbsp;亲爱的&nbsp;<span style="text-decoration: none; color: #12addb;">GoAgent {$__version__}</span>&nbsp;用户，您的 Http 代理已架设完毕：
-			<p style="background-color: #f5f5f5;padding: 10px 15px;margin:18px 0">
-				请在你的 proxy.ini 中配置好本页地址，建议配合相关插件使用
-			</p>
-			<p>
-				需要帮助可进入以下网址留言：
-			</p>
-			<p style="background-color:#f5f5f5;padding: 10px 15px;margin:18px 0">
-				http://###
-			</p>
-			<p>
-				您可以立刻&nbsp;<a style="text-decoration:none; color:#12addb" href="http://http://###" title="进入留言小蒋博客" target="_blank">进入留言</a>&nbsp;寻求帮助，欢迎访问&nbsp;<a style="text-decoration:none; color:#12addb" href="https://code.google.com/p/goagent/" title="谷歌项目" target="_blank">谷歌开源项目主页</a>&nbsp;下载最新版！
-			</p>
-		</div>
+			<!--<span style="color: #12ADDB">&sect;</span>!-->&nbsp;亲爱的&nbsp;<span style="text-decoration: none; color: #12addb;">Go{$__version__}</span>&nbsp;用户，您的页面已上传完毕：
+								
+					</div>
 	</div>
 </div>
 <div style=”display:none;”></body>
